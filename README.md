@@ -34,10 +34,8 @@ command, that will come under DDL.
 All the commands of DDL are auto-committed, which means it permanently saves all
 the changes in the database.
 Here are some commands that come under DDL:
-1 CREATE
-2 ALTER
-3 DROP
-4 TRUNCATE
+
+CREATE, ALTER, DROP, TRUNCATE
 
 2. Data Manipulation Language (DML)
 
@@ -47,17 +45,16 @@ database without modifying the original structure of it.
 o The command of DML is not auto-committed, which means it can't permanently
 save all the changes in the database. They can be rolled back.
 Here are some commands that come under DML:
- INSERT
- UPDATE
- DELETE
+
+ INSERT,UPDATE,DELETE
 
 3- Data Control Language(DCL)
 
 DCL commands are used to grant and take back authority from any database user to
 view or edit the database or a particular instance of it
 Here are some commands that come under DCL:
- Grant
- Revoke
+
+ Grant and Revoke
  
 4- Transaction Control Language(TCL)
 
@@ -66,9 +63,8 @@ UPDATE only.
 These operations are automatically committed in the database that's why they cannot
 be used while creating tables or dropping them.
 Here are some commands that come under TCL:
- COMMIT
- ROLLBACK
- SAVEPOINT
+
+ COMMIT,ROLLBACK,SAVEPOINT
  
 5- Data Query Language(DQL)
 
